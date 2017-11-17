@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="2.1"
+    xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:uml="http://schema.omg.org/spec/UML/2.2" xsi:schemaLocation="http://schema.omg.org/spec/UML/2.2 http://www.eclipse.org/uml2/3.0.0/UML" xmi:id="_EGBocM0QEeGdQ-Wgkc4yTw"
+    name="modeloSemNome">
+  <packagedElement xmi:type="uml:Class" xmi:id="_2Cu3YM0QEeGdQ-Wgkc4yTw" name="Paciente">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_vqmlwM0SEeGdQ-Wgkc4yTw" name="codigo" type="_xfhgAM0SEeGdQ-Wgkc4yTw"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_x5YKcM0SEeGdQ-Wgkc4yTw" name="nomePaciente" type="_UYxowM0REeGdQ-Wgkc4yTw"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_1Xxj8M0SEeGdQ-Wgkc4yTw" name="email" type="_UYxowM0REeGdQ-Wgkc4yTw"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_4DVLQM0SEeGdQ-Wgkc4yTw" name="fone" type="_UYxowM0REeGdQ-Wgkc4yTw"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_5g_cEM0SEeGdQ-Wgkc4yTw" name="create" class="_2Cu3YM0QEeGdQ-Wgkc4yTw"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_75eZkM0WEeGdQ-Wgkc4yTw" name="read" class="_2Cu3YM0QEeGdQ-Wgkc4yTw"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_83dEwM0WEeGdQ-Wgkc4yTw" name="update" class="_2Cu3YM0QEeGdQ-Wgkc4yTw"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_9wvdMM0WEeGdQ-Wgkc4yTw" name="delete" class="_2Cu3YM0QEeGdQ-Wgkc4yTw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_8RwlcM0QEeGdQ-Wgkc4yTw" name="ProntuarioEletronico">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_CbTSYM0YEeGdQ-Wgkc4yTw" name="codigoProntuario" type="_xfhgAM0SEeGdQ-Wgkc4yTw"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_D0sHMM0YEeGdQ-Wgkc4yTw" name="dosagem" type="_UYxowM0REeGdQ-Wgkc4yTw"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_PMJHoM0YEeGdQ-Wgkc4yTw" name="qtdvezesdia" type="_xfhgAM0SEeGdQ-Wgkc4yTw"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_VktzQM0YEeGdQ-Wgkc4yTw" name="datainicio" type="_0Z1iwM0XEeGdQ-Wgkc4yTw"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_XTb-4M0YEeGdQ-Wgkc4yTw" name="qtdDias" type="_xfhgAM0SEeGdQ-Wgkc4yTw"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_XUoRsM0YEeGdQ-Wgkc4yTw" name="obs" type="_UYxowM0REeGdQ-Wgkc4yTw"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_fyOwIM0YEeGdQ-Wgkc4yTw" name="create" class="_8RwlcM0QEeGdQ-Wgkc4yTw"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_gwvm0M0YEeGdQ-Wgkc4yTw" name="read" class="_8RwlcM0QEeGdQ-Wgkc4yTw"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_ilKKwM0YEeGdQ-Wgkc4yTw" name="update" class="_8RwlcM0QEeGdQ-Wgkc4yTw"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_jbbrcM0YEeGdQ-Wgkc4yTw" name="delete" class="_8RwlcM0QEeGdQ-Wgkc4yTw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_DbXscM0REeGdQ-Wgkc4yTw" name="Medico">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_TGbQEM0REeGdQ-Wgkc4yTw" name="CRM" type="_UYxowM0REeGdQ-Wgkc4yTw"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_Uyvn8M0REeGdQ-Wgkc4yTw" name="Nome" type="_UYxowM0REeGdQ-Wgkc4yTw"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_Wy6v8M0REeGdQ-Wgkc4yTw" name="Email" type="_UYxowM0REeGdQ-Wgkc4yTw"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_AVV6MM0SEeGdQ-Wgkc4yTw" name="create" class="_DbXscM0REeGdQ-Wgkc4yTw"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_okbQcM0WEeGdQ-Wgkc4yTw" name="read" class="_DbXscM0REeGdQ-Wgkc4yTw"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_u1HycM0WEeGdQ-Wgkc4yTw" name="update" class="_DbXscM0REeGdQ-Wgkc4yTw"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_vU4QkM0WEeGdQ-Wgkc4yTw" name="delete" class="_DbXscM0REeGdQ-Wgkc4yTw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_Ee17oM0REeGdQ-Wgkc4yTw" name="Remedio">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_Dtw1QM0XEeGdQ-Wgkc4yTw" name="codigoRemedio" type="_xfhgAM0SEeGdQ-Wgkc4yTw"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_QinAwM0XEeGdQ-Wgkc4yTw" name="descricao" type="_UYxowM0REeGdQ-Wgkc4yTw"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_TPh6AM0XEeGdQ-Wgkc4yTw" name="composicao" type="_UYxowM0REeGdQ-Wgkc4yTw"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_UzHzsM0XEeGdQ-Wgkc4yTw" name="valorUnit" type="_XJ6r8M0XEeGdQ-Wgkc4yTw"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_sXnYwM0XEeGdQ-Wgkc4yTw" name="create" class="_Ee17oM0REeGdQ-Wgkc4yTw"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_tMqxcM0XEeGdQ-Wgkc4yTw" name="read" class="_Ee17oM0REeGdQ-Wgkc4yTw"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_ubmpwM0XEeGdQ-Wgkc4yTw" name="update" class="_Ee17oM0REeGdQ-Wgkc4yTw"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_vjFPMM0XEeGdQ-Wgkc4yTw" name="delete" class="_Ee17oM0REeGdQ-Wgkc4yTw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_JLeC0M0REeGdQ-Wgkc4yTw" name="PlanilhaHorarios">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_xq8TkM0XEeGdQ-Wgkc4yTw" name="data" type="_0Z1iwM0XEeGdQ-Wgkc4yTw"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_03uYoM0XEeGdQ-Wgkc4yTw" name="hora" type="_17VKsM0XEeGdQ-Wgkc4yTw"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_3h9xUM0XEeGdQ-Wgkc4yTw" name="create" class="_JLeC0M0REeGdQ-Wgkc4yTw"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_4Xg5QM0XEeGdQ-Wgkc4yTw" name="read" class="_JLeC0M0REeGdQ-Wgkc4yTw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_UYxowM0REeGdQ-Wgkc4yTw" name="String"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_l_JpkM0REeGdQ-Wgkc4yTw" memberEnd="_l_KQoM0REeGdQ-Wgkc4yTw _l_KQoc0REeGdQ-Wgkc4yTw"
+      navigableOwnedEnd="_l_KQoM0REeGdQ-Wgkc4yTw _l_KQoc0REeGdQ-Wgkc4yTw">
+    <ownedEnd xmi:type="uml:Property" xmi:id="_l_KQoM0REeGdQ-Wgkc4yTw" type="_DbXscM0REeGdQ-Wgkc4yTw"
+        owningAssociation="_l_JpkM0REeGdQ-Wgkc4yTw" association="_l_JpkM0REeGdQ-Wgkc4yTw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_l_KQoc0REeGdQ-Wgkc4yTw" type="_8RwlcM0QEeGdQ-Wgkc4yTw"
+        owningAssociation="_l_JpkM0REeGdQ-Wgkc4yTw" association="_l_JpkM0REeGdQ-Wgkc4yTw">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_llHjgc0SEeGdQ-Wgkc4yTw" value="*"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_llHjgM0SEeGdQ-Wgkc4yTw" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_3FA-UM0REeGdQ-Wgkc4yTw" memberEnd="_3FA-Uc0REeGdQ-Wgkc4yTw _3FA-Us0REeGdQ-Wgkc4yTw"
+      navigableOwnedEnd="_3FA-Uc0REeGdQ-Wgkc4yTw _3FA-Us0REeGdQ-Wgkc4yTw">
+    <ownedEnd xmi:type="uml:Property" xmi:id="_3FA-Uc0REeGdQ-Wgkc4yTw" type="_2Cu3YM0QEeGdQ-Wgkc4yTw"
+        owningAssociation="_3FA-UM0REeGdQ-Wgkc4yTw" association="_3FA-UM0REeGdQ-Wgkc4yTw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_3FA-Us0REeGdQ-Wgkc4yTw" type="_8RwlcM0QEeGdQ-Wgkc4yTw"
+        owningAssociation="_3FA-UM0REeGdQ-Wgkc4yTw" association="_3FA-UM0REeGdQ-Wgkc4yTw">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_jz-WAc0SEeGdQ-Wgkc4yTw" value="*"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_jz-WAM0SEeGdQ-Wgkc4yTw" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_4gihIM0REeGdQ-Wgkc4yTw" memberEnd="_4gihIc0REeGdQ-Wgkc4yTw _4gihIs0REeGdQ-Wgkc4yTw"
+      navigableOwnedEnd="_4gihIc0REeGdQ-Wgkc4yTw _4gihIs0REeGdQ-Wgkc4yTw">
+    <ownedEnd xmi:type="uml:Property" xmi:id="_4gihIc0REeGdQ-Wgkc4yTw" type="_JLeC0M0REeGdQ-Wgkc4yTw"
+        owningAssociation="_4gihIM0REeGdQ-Wgkc4yTw" association="_4gihIM0REeGdQ-Wgkc4yTw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_4gihIs0REeGdQ-Wgkc4yTw" type="_8RwlcM0QEeGdQ-Wgkc4yTw"
+        aggregation="shared" owningAssociation="_4gihIM0REeGdQ-Wgkc4yTw" association="_4gihIM0REeGdQ-Wgkc4yTw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_7_t9wM0REeGdQ-Wgkc4yTw" memberEnd="_7_t9wc0REeGdQ-Wgkc4yTw _7_t9ws0REeGdQ-Wgkc4yTw"
+      navigableOwnedEnd="_7_t9wc0REeGdQ-Wgkc4yTw _7_t9ws0REeGdQ-Wgkc4yTw">
+    <ownedEnd xmi:type="uml:Property" xmi:id="_7_t9wc0REeGdQ-Wgkc4yTw" type="_Ee17oM0REeGdQ-Wgkc4yTw"
+        owningAssociation="_7_t9wM0REeGdQ-Wgkc4yTw" association="_7_t9wM0REeGdQ-Wgkc4yTw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_7_t9ws0REeGdQ-Wgkc4yTw" type="_8RwlcM0QEeGdQ-Wgkc4yTw"
+        owningAssociation="_7_t9wM0REeGdQ-Wgkc4yTw" association="_7_t9wM0REeGdQ-Wgkc4yTw">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_fbJUkc0SEeGdQ-Wgkc4yTw" value="*"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_fbJUkM0SEeGdQ-Wgkc4yTw" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_xfhgAM0SEeGdQ-Wgkc4yTw" name="int"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_XJ6r8M0XEeGdQ-Wgkc4yTw" name="float"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_YlR2sM0XEeGdQ-Wgkc4yTw" name="TipoRemedio">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_cc1-IM0XEeGdQ-Wgkc4yTw" name="codigoTipo" type="_xfhgAM0SEeGdQ-Wgkc4yTw"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_dvBXsM0XEeGdQ-Wgkc4yTw" name="descricaoTipo" type="_UYxowM0REeGdQ-Wgkc4yTw"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_fTW4QM0XEeGdQ-Wgkc4yTw" name="create" class="_YlR2sM0XEeGdQ-Wgkc4yTw"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_hDgAMM0XEeGdQ-Wgkc4yTw" name="read" class="_YlR2sM0XEeGdQ-Wgkc4yTw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_jLau8M0XEeGdQ-Wgkc4yTw" memberEnd="_jLau8c0XEeGdQ-Wgkc4yTw _jLau8s0XEeGdQ-Wgkc4yTw"
+      navigableOwnedEnd="_jLau8c0XEeGdQ-Wgkc4yTw _jLau8s0XEeGdQ-Wgkc4yTw">
+    <ownedEnd xmi:type="uml:Property" xmi:id="_jLau8c0XEeGdQ-Wgkc4yTw" type="_YlR2sM0XEeGdQ-Wgkc4yTw"
+        owningAssociation="_jLau8M0XEeGdQ-Wgkc4yTw" association="_jLau8M0XEeGdQ-Wgkc4yTw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_jLau8s0XEeGdQ-Wgkc4yTw" type="_Ee17oM0REeGdQ-Wgkc4yTw"
+        aggregation="shared" owningAssociation="_jLau8M0XEeGdQ-Wgkc4yTw" association="_jLau8M0XEeGdQ-Wgkc4yTw">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_kqq7Mc0XEeGdQ-Wgkc4yTw" value="*"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_kqq7MM0XEeGdQ-Wgkc4yTw" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_0Z1iwM0XEeGdQ-Wgkc4yTw" name="Date"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_17VKsM0XEeGdQ-Wgkc4yTw" name="Time"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_rWk9EM0YEeGdQ-Wgkc4yTw" memberEnd="_rWk9Ec0YEeGdQ-Wgkc4yTw _rWk9Es0YEeGdQ-Wgkc4yTw"
+      navigableOwnedEnd="_rWk9Ec0YEeGdQ-Wgkc4yTw _rWk9Es0YEeGdQ-Wgkc4yTw">
+    <ownedEnd xmi:type="uml:Property" xmi:id="_rWk9Ec0YEeGdQ-Wgkc4yTw" type="_8RwlcM0QEeGdQ-Wgkc4yTw"
+        owningAssociation="_rWk9EM0YEeGdQ-Wgkc4yTw" association="_rWk9EM0YEeGdQ-Wgkc4yTw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_rWk9Es0YEeGdQ-Wgkc4yTw" type="_JLeC0M0REeGdQ-Wgkc4yTw"
+        aggregation="shared" owningAssociation="_rWk9EM0YEeGdQ-Wgkc4yTw" association="_rWk9EM0YEeGdQ-Wgkc4yTw">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_sWdFsc0YEeGdQ-Wgkc4yTw" value="*"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_sWdFsM0YEeGdQ-Wgkc4yTw" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+</uml:Model>

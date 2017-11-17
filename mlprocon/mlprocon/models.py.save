@@ -1,0 +1,109 @@
+from django.db import models
+
+ENUM_SEXO = (
+        ('-','Selecione'),
+        ('M','MASCULINO'),
+        ('F','FEMININO'),
+)
+
+ENUM_ATIVIDADE_EXTERNA = (
+        ('-','Selecione'),
+        ('OI','OUVIDORIA_ITINERANTE'),
+	('OP','OUVIDORIA_PEDAGOGICA'),
+) 
+
+ENUM_IDENTIFICACAO_DEMANDA = (
+        ('-','Selecione'),
+        ('I','IDENTIFICADO'),
+	('S','SIGILOSO'),
+        ('A','ANONIMO'),
+)
+
+ENUM_TIPO_ACESSO = (
+        ('-','Selecione'),
+        ('I','INTERNET'),
+	('P','PRESENCIAL'),
+        ('C','CARTA'),
+	('M','MIDIA'),
+	('T','TELEFONE'),
+)
+ 
+class Uf(models.Model):
+    codigo = models.IntegerField(null=True, blank=True)
+    nome   = models.CharField(max_length=50)
+    sigla  = models.CharField(max_length=2)
+    def __unicode__(self):
+       return self.sigla
+
+class Secretaria(models.Model):
+    cod_secretaria = models.IntegerField(null=True, blank=True)
+    nome_secretaria = models.CharField(max_length=70)
+    ramal = models.CharField(max_length=30)
+    fone  = models.CharField(max_length=45)
+    obser = models.CharField(max_length=50)
+    def __unicode__(self):
+       return self.nome_secretaria
+
+class Bairro(models.Model):
+    codigo_bairro = models.IntegerField(null=True, blank=True)
+    nome_bairro = models.CharField(max_length=50)
+    localizacao = models.CharField(max_length=40)
+    def __unicode__(self):
+    	return self.nome_bairro
+
+class Requisitante(models.Model):
+    codigo_req = models.IntegerField(null=True, blank=True)
+    nome_requisitante = models.CharField(max_length=70)
+    logradouro = models.CharField(max_length=50)
+    cep = models.CharField(max_length=15)
+    cidade = models.CharField(max_length=45)
+    email = models.CharField(max_length=60)
+    fone_residencial = models.CharField(max_length=30)
+    fone_celular = models.CharField(max_length=30)
+    fax = models.CharField(max_length=30)
+    rg = models.CharField(max_length=40)
+    cpf = models.CharField(max_length=30)
+    cnpj = models.CharField(max_length=30)
+    data_nasc = models.DateField(null=True, blank=True)
+    bairro = models.ForeignKey(Bairro)
+    uf = models.ForeignKey(Uf)
+    sexo = models.CharField(max_length=1, choices=ENUM_SEXO)
+    def ___unicode__(self):
+        return self.codigo_req
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
